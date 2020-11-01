@@ -13,7 +13,7 @@ WHERE prod_name LIKE 'fish%';
 -- wildcard can be used in middle of search pattern. Find product that begin with F and end with a Y
 SELECT prod_name
 FROM products
-WHERE prod_name LIKE 'e%n';
+WHERE prod_name LIKE 'F%Y';
 
 # The _ wild card
 SELECT prod_name
